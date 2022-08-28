@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         URL dataURL = new URL("https://raw.githubusercontent.com/OverimaginedShaders/Secret/main/data.json");
-        String installerVersion = "1.0-beta6";
+        String installerVersion = "1.0-beta7";
 
         if (System.console() == null) {
             Files.write(Paths.get("README.txt"), "Please run this installer with your system console like this:\njava -jar <path to this installer>".getBytes());
